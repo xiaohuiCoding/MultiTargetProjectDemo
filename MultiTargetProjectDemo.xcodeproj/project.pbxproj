@@ -28,6 +28,9 @@
 		4BCA53F620859BB40098A0FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA53F420859BB40098A0FC /* AppDelegate.m */; };
 		4BCA53F720859BB40098A0FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA53F420859BB40098A0FC /* AppDelegate.m */; };
 		4BCA53F820859BB40098A0FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA53F420859BB40098A0FC /* AppDelegate.m */; };
+		4BD1C0DB2085CA5800429D70 /* ManHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1C0DA2085CA5800429D70 /* ManHomePageViewController.m */; };
+		4BD1C0DE2085CA7F00429D70 /* TreeHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1C0DD2085CA7F00429D70 /* TreeHomePageViewController.m */; };
+		4BD1C0E12085CA9800429D70 /* BirdHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1C0E02085CA9800429D70 /* BirdHomePageViewController.m */; };
 		92AE880957F598924E8560CA /* libPods-Tree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0846B15C0968EFF8C3FBDF0F /* libPods-Tree.a */; };
 		C6D46E0A22EDA6673CDE17F2 /* libPods-Man.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F02F0F276064BFC74398ECA /* libPods-Man.a */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,12 @@
 		4BCA540120859CDE0098A0FC /* Man.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Man.plist; sourceTree = "<group>"; };
 		4BCA540420859CEF0098A0FC /* Tree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tree.plist; sourceTree = "<group>"; };
 		4BCA54072085A1360098A0FC /* Bird.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bird.plist; sourceTree = "<group>"; };
+		4BD1C0D92085CA5800429D70 /* ManHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManHomePageViewController.h; sourceTree = "<group>"; };
+		4BD1C0DA2085CA5800429D70 /* ManHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManHomePageViewController.m; sourceTree = "<group>"; };
+		4BD1C0DC2085CA7F00429D70 /* TreeHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeHomePageViewController.h; sourceTree = "<group>"; };
+		4BD1C0DD2085CA7F00429D70 /* TreeHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeHomePageViewController.m; sourceTree = "<group>"; };
+		4BD1C0DF2085CA9800429D70 /* BirdHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdHomePageViewController.h; sourceTree = "<group>"; };
+		4BD1C0E02085CA9800429D70 /* BirdHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdHomePageViewController.m; sourceTree = "<group>"; };
 		5899B5D8015364A4F6F714C9 /* libPods-Bird.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bird.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA241FF6B3B1A1AC94711A3F /* Pods-Bird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bird.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bird/Pods-Bird.release.xcconfig"; sourceTree = "<group>"; };
 		C1E896C1710753CFEE0083C2 /* Pods-Man.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Man.release.xcconfig"; path = "Pods/Target Support Files/Pods-Man/Pods-Man.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				4BCA53F020859B960098A0FC /* Config */,
+				4BD1C0DF2085CA9800429D70 /* BirdHomePageViewController.h */,
+				4BD1C0E02085CA9800429D70 /* BirdHomePageViewController.m */,
 			);
 			path = Bird;
 			sourceTree = "<group>";
@@ -187,6 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				4BCA53F220859BA20098A0FC /* Config */,
+				4BD1C0DC2085CA7F00429D70 /* TreeHomePageViewController.h */,
+				4BD1C0DD2085CA7F00429D70 /* TreeHomePageViewController.m */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -195,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				4BCA53F120859B9C0098A0FC /* Config */,
+				4BD1C0D92085CA5800429D70 /* ManHomePageViewController.h */,
+				4BD1C0DA2085CA5800429D70 /* ManHomePageViewController.m */,
 			);
 			path = Man;
 			sourceTree = "<group>";
@@ -516,6 +531,7 @@
 				4BCA53C1208596450098A0FC /* ViewController.m in Sources */,
 				4BCA53C2208596450098A0FC /* main.m in Sources */,
 				4BCA53F620859BB40098A0FC /* AppDelegate.m in Sources */,
+				4BD1C0DB2085CA5800429D70 /* ManHomePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD1C0DE2085CA7F00429D70 /* TreeHomePageViewController.m in Sources */,
 				4BCA53D0208596490098A0FC /* ViewController.m in Sources */,
 				4BCA53D1208596490098A0FC /* main.m in Sources */,
 				4BCA53F720859BB40098A0FC /* AppDelegate.m in Sources */,
@@ -534,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BCA53DF208599EA0098A0FC /* ViewController.m in Sources */,
+				4BD1C0E12085CA9800429D70 /* BirdHomePageViewController.m in Sources */,
 				4BCA53E0208599EA0098A0FC /* main.m in Sources */,
 				4BCA53F820859BB40098A0FC /* AppDelegate.m in Sources */,
 			);

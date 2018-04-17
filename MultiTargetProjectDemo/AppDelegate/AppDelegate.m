@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ManHomePageViewController.h"
+#import "TreeHomePageViewController.h"
+#import "BirdHomePageViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,20 +19,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    //根据预处理器中定义的宏来区分不同的Target
     switch (TargetType) {
         case 1:
+        {
             NSLog(@"Man 启动了");
+            ManHomePageViewController *vc = [[ManHomePageViewController alloc] init];
+            self.window.rootViewController = vc;
             break;
+        }
         case 2:
+        {
             NSLog(@"Tree 启动了");
+            TreeHomePageViewController *vc = [[TreeHomePageViewController alloc] init];
+            self.window.rootViewController = vc;
             break;
+        }
         case 3:
+        {
             NSLog(@"Bird 启动了");
+            BirdHomePageViewController *vc = [[BirdHomePageViewController alloc] init];
+            self.window.rootViewController = vc;
             break;
+        }
         default:
             break;
     }
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
